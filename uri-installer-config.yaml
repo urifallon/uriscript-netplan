@@ -10,7 +10,7 @@ network:
 
       routes:
         - to: default
-          via: [gateway_ip] 
+          via: [gateway_ip] <-- Set .2 if you are using a virtual machine (VMware)
 
       nameservers:
         addresses: [dns_server_1, dns_server_2]
